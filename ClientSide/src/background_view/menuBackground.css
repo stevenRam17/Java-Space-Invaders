@@ -1,0 +1,9 @@
+/* 
+    Created on : 26 jun. 2021, 18:29:52
+    background of the game menu window
+*/
+.bodybgmenu{
+ -fx-background-image: url('/images/menuBackground.jpg');
+ -fx-background-size: 100% 100%;
+}
+

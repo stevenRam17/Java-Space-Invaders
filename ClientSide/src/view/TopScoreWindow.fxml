@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" styleClass="bodybgtopscore" stylesheets="@../background_view/topScoreBackground.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <TextArea fx:id="topScoreTA" editable="false" focusTraversable="false" layoutX="134.0" layoutY="34.0" prefHeight="333.0" prefWidth="332.0" style="-fx-background-color: red;" styleClass="bodybgtopscore" stylesheets="@../background_view/topScoreBackground.css">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font></TextArea>
+      <Button fx:id="btBackTopScore" layoutX="487.0" layoutY="344.0" mnemonicParsing="false" onAction="#backTopScore" text="Volver" />
+   </children>
+</AnchorPane>

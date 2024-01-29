@@ -1,0 +1,9 @@
+/* 
+    Created on : 26 jun. 2021, 18:29:52
+    background of the authentication and inscription window
+*/
+.bodybglogin{
+ -fx-background-image: url('/images/login.jpg');
+ -fx-background-size: 100% 100%;
+}
+

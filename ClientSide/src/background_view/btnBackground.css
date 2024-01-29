@@ -1,0 +1,9 @@
+/* 
+    Created on : 26 jun. 2021, 18:29:52
+    background of the buttons
+*/
+.bodybgbtn{
+ -fx-background-image: url('/images/nebula.jpg');
+ -fx-background-size: 100% 100%;
+}
+

@@ -1,0 +1,8 @@
+/* 
+    Created on : 30 jun. 2021, 14:59:07
+    background of the top score window
+*/
+.bodybgtopscore {
+ -fx-background-image: url('/images/topscore.jpg');
+ -fx-background-size: 100% 100%;
+}

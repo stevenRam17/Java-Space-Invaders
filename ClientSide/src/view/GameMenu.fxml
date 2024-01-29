@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="398.0" prefWidth="401.0" styleClass="bodybgmenu" stylesheets="@../background_view/menuBackground.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Button fx:id="btnPlay" layoutX="81.0" layoutY="98.0" mnemonicParsing="false" onAction="#gameMenuView" style="-fx-background-color: black; -fx-border-color: #9900FF; -fx-border-width: 2;" styleClass="bodybgbtn" stylesheets="@../background_view/btnBackground.css" text="Jugar" textFill="WHITE" />
+      <Button fx:id="btnTopScore" layoutX="26.0" layoutY="155.0" mnemonicParsing="false" onAction="#gameMenuView" style="-fx-background-color: black; -fx-border-color: #FF5722; -fx-border-width: 2;" styleClass="bodybgbtn" stylesheets="@../background_view/btnBackground.css" text="Mejores puntuaciones" textFill="WHITE" />
+      <Button fx:id="btnInstructions" layoutX="56.0" layoutY="209.0" mnemonicParsing="false" onAction="#gameMenuView" style="-fx-background-color: #33FF33; -fx-border-color: #FF9800; -fx-border-width: 2;" styleClass="bodybgbtn" stylesheets="@../background_view/btnBackground.css" text="Instrucciones" textFill="WHITE" />
+      <Button fx:id="btnBack" layoutX="79.0" layoutY="263.0" mnemonicParsing="false" onAction="#gameMenuView" style="-fx-background-color: #33FF33; -fx-border-color: #FFEB3B; -fx-border-width: 2;" styleClass="bodybgbtn" stylesheets="@../background_view/btnBackground.css" text="Volver" textFill="WHITE" />
+   </children>
+</AnchorPane>

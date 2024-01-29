@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="335.0" prefWidth="496.0" styleClass="bodybginstructions" stylesheets="@../background_view/instructionBackgroundImage.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Label fx:id="lbinstructions" layoutX="1.0" layoutY="-1.0" lineSpacing="1.0" onInputMethodTextChanged="#openInstructionsWindow" prefHeight="316.0" prefWidth="386.0" style="-fx-alignment: center; -fx-background-color: black;">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#a9da9b" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Button fx:id="btnBackInstructions" alignment="TOP_LEFT" layoutX="209.0" layoutY="290.0" mnemonicParsing="false" onAction="#gameInstructionsView" style="-fx-background-color: #0033CC;" text="Volver" textFill="WHITE" />
+   </children>
+</AnchorPane>

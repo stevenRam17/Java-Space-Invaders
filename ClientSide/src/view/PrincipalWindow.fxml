@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="446.0" styleClass="bodybgprincipal" stylesheets="@../background_view/principalBackgroundImage.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <Button fx:id="btnInscription" layoutX="181.0" layoutY="165.0" mnemonicParsing="false" onAction="#principalView" style="-fx-border-color: #9900CC; -fx-border-width: 1,5; -fx-background-color: black;" styleClass="bodybgbtn" stylesheets="@../background_view/btnBackground.css" text="Incribirse" textFill="#11ff00" />
+      <Button fx:id="btnAuthenticationPrin" layoutX="170.0" layoutY="220.0" mnemonicParsing="false" onAction="#principalView" style="-fx-background-color: black; -fx-border-color: #9900CC; -fx-border-width: 1,5;" styleClass="bodybgbtn" stylesheets="@../background_view/btnBackground.css" text="Autenticarse" textFill="#11ff00" />
+      <Button fx:id="btnExit" layoutX="198.0" layoutY="268.0" mnemonicParsing="false" onAction="#principalView" style="-fx-background-color: black; -fx-border-color: #9900CC; -fx-border-width: 1,5;" styleClass="bodybgbtn" stylesheets="@../background_view/btnBackground.css" text="Salir" textFill="RED" />
+   </children>
+</AnchorPane>
